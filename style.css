@@ -14,6 +14,7 @@
 :root {
   --mainColor: #ff6e42;
   --font-color: #454545;
+  --section-color: #f5f8fc;
   --section-padding: 100px;
 }
 /* Components */
@@ -131,4 +132,57 @@
   color: var(--mainColor);
   font-weight: bold;
 }
+
 /* End Service */
+
+/* Start About */
+.About {
+  background: var(--section-color);
+  margin-top: -100px;
+  padding: var(--section-padding) 0;
+}
+.About-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+}
+img {
+  width: 100%;
+}
+
+.About .About-Company {
+  color: var(--font-color);
+  width: 90%;
+}
+
+.About .About-Company h3 {
+  font-size: 30px;
+}
+.About .About-Company p {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.About .About-Company .f {
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+.About .About-Content {
+  width: 90%;
+  color: var(--font-color);
+}
+.About .About-Content .images {
+  display: flex;
+  gap: 20px;
+}
+.About .images img {
+  width: 48%;
+}
+.About .About-Content p {
+  padding: 25px 0;
+}
+
+/* end about */
